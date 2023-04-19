@@ -6,10 +6,6 @@
 .word 0x080000ed
 .space 0xe4
 
-#nop
-#ldr r0, =123456789
-#mov r1, r0
-
 #Initialize Clock for GPIOC, GPIOB, GPIOA
     ldr r0, =0x00000007
     ldr r1, =0x4002104C
